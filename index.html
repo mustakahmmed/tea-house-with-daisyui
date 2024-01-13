@@ -2,45 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tea house</title>
-    <!-- tailwind and daisyui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!--manrope google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        .font-manrope {
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
-    <!-- taiwind customizition -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tea house</title>
+  <!-- tailwind and daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--manrope google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+
+  <!-- fontawsom link -->
+  <script src="https://kit.fontawesome.com/449eb2d06a.js" crossorigin="anonymous"></script>
+
+  <!-- taiwind customizition -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
 
 <body class="font-manrope">
-    <header>
 
-    </header>
-    <main>
+  <header class="container mx-auto">
 
-    </main>
-    <footer>
+    <!-- header section -->
+    <section>
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
 
-    </footer>
+          <div class="text-left">
+            <h1 class="text-7xl font-extrabold">It's good <br>
+              tea time at The <br>Tea House</h1>
+            <p class="py-6 text-lg font-medium ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+              Taste Buds.</p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <div>
+              <img src="images/banner.png" class="max-w-sm" />
+
+              <div class="flex items-center gap-4 drop-shadow-xl w-60 bg-white p-5 rounded-lg -mt-16">
+                <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                <div>
+                  <h3 class="text-3xl font-extrabold">5.00</h3>
+                  <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </header>
+  <main class="container mx-auto">
+
+  </main>
+  <footer>
+
+  </footer>
 
 </body>
 
